@@ -1,0 +1,8 @@
+<p>contact works!</p>
+    <form #submit="ngForm" (ngSubmit)="onSubmit()">
+        <p>Name<input type="text" name="name" required [(ngModel)]="postData.name"/></p>
+        <p>Phone no<input type="number" name="phoneno" required [(ngModel)]="postData.phoneno"/></p>
+        <p>Email id<input type="text" name="emailid" required [(ngModel)]="postData.emailid"/></p>
+        <p>Description<input type="text" name="desc" required [(ngModel)]="postData.desc"/></p>
+        <p><button type="submit" [disabled]=!submit.valid>Submit</button></p>
+    </form>

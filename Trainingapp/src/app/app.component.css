@@ -1,0 +1,12 @@
+ul {
+    list-style-type: none; /* Optional: removes bullets */
+    padding: 0; /* Optional: removes padding */
+  }
+  a:link { 
+    text-decoration: none; 
+  } 
+  
+  li {
+    display: inline; /* Makes <li> items appear in one line */
+    margin-right: 10px; /* Optional: adds spacing between items */
+  }

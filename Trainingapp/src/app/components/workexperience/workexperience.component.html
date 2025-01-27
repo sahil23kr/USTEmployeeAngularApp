@@ -1,0 +1,11 @@
+<p>workexperience works!</p>
+<button (click)="_postdata.getpostData()">Get All experties data</button>
+<table border="1">
+    <tr *ngFor="let p of _postdata.postdata">
+    <td>{{p.userId}}</td>
+    <td>{{p.id}}</td>
+    <td>{{p.title}}</td>
+    <td>{{p.body}}</td>
+    </tr>
+</table>
+
